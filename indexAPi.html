@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com API javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Excuse generator</h1>
+    </header>
+
+
+
+    <main>
+
+        <label for="qtndDesc">Amount of excuses: </label>
+        <input type="number" name="qtndDesculpas" id="qtndDesculpas">
+        <br>
+    
+        <label for="tipoDesculpa">Select the type of excuse</label>
+        <select name="tipoDesculpa" id="tipoDesculpa">
+            <option value="">None</option>
+            <option value="family">Family</option>
+            <option value="office">Office</option>
+            <option value="children">Children</option>
+            <option value="college">College</option>
+            <option value="party">Party</option>
+            <option value="funny">Funny</option>
+            <option value="unbelievable">Unbelievable</option>
+            <option value="developers">Developers</option>
+            <option value="gaming">Gaming</option>
+        </select>
+        <br>
+    
+        <button onclick="getExcuse()">Generate Excuse</button>
+    
+        <div class="resultadoDesculpa">
+    
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
